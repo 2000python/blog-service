@@ -12,7 +12,21 @@
 //   // }
 // };
 
-exports.mysql = {
-  enable: true,
-  package: 'egg-mysql',
+// exports.mysql = {
+//   enable: true,
+//   package: 'egg-mysql',
+// };
+module.exports = {
+  mysql: {
+    enable: true,
+    package: 'egg-mysql',
+  },
+  cors: {
+    enable: true,
+    package: 'egg-cors',
+  },
+  axiosPlus: {
+    enable: true,
+    package: 'egg-axios-plus',
+  },
 };

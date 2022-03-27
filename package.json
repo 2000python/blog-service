@@ -7,9 +7,19 @@
     "declarations": true
   },
   "dependencies": {
+    "@agencyanalytics/colorthief": "^2.3.3",
+    "@mtproto/core": "^6.1.1",
+    "axios": "^0.26.0",
     "egg": "^2.15.1",
+    "egg-axios-plus": "^3.1.2",
+    "egg-cors": "^2.2.3",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.11.0"
+    "egg-scripts": "^2.11.0",
+    "got": "^12.0.1",
+    "quantize": "^1.0.2",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1",
+    "telegram-api-js": "^1.2.9"
   },
   "devDependencies": {
     "autod": "^3.0.1",
